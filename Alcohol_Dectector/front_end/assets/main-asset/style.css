@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#container {
+  background-color: #feca57;
+}
+/* header */
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: whitesmoke;
+}
+header h1 {
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  position: relative;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+/* status */
+div.status {
+  width: 100vw;
+  height: 10vh;
+}
+div.status button.btn {
+  position: relative;
+  top: 25%;
+  left: 15%;
+  transform: translateX(-50%);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+div.status button.btn.btn-light {
+  left: 40%;
+}
+/* section */
+section {
+  width: 100vw;
+  height: 71.2vh;
+  background-color: #c8d6e5;
+  overflow-y: scroll;
+}
+section div.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+section div.title h3 {
+  text-align: center;
+}
+section table.table {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  text-align: center;
+  /* Bootstrap css custom */
+  --bs-table-bg: #c8d6e5;
+}
+section table.table thead {
+  position: sticky;
+  top: 0;
+}
+section table.table tbody tr td a {
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  background-color: #ff9f43;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* footer */
+footer#footer {
+  width: 100vw;
+  height: 8.5vh;
+  background-color: whitesmoke;
+}

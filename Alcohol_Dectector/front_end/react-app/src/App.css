@@ -1,0 +1,54 @@
+/* status */
+div.status {
+  width: 100vw;
+  height: 10vh;
+}
+div.status button.btn {
+  position: relative;
+  top: 25%;
+  left: 15%;
+  transform: translateX(-50%);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+div.status button.btn.btn-light {
+  left: 40%;
+}
+/* section */
+section {
+  width: 100vw;
+  height: 71.2vh;
+  background-color: #c8d6e5;
+  overflow-y: scroll;
+}
+section div.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+section div.title h3 {
+  text-align: center;
+}
+section table.table {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  text-align: center;
+  /* Bootstrap css custom */
+  --bs-table-bg: #c8d6e5;
+}
+section table.table thead {
+  position: sticky;
+  top: 0;
+}
+section table.table tbody tr td a {
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  background-color: #ff9f43;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
