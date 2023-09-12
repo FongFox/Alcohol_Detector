@@ -1,2 +1,2 @@
-# Project
-All coding project (conmplete) in here
+# Alcohol Detector
+Alcohol Detector project (front-end not complete)
