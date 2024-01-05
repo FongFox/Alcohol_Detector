@@ -1,0 +1,18 @@
+meta {
+  name: Test Login
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/test/login
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "admin",
+    "password": "admin"
+  }
+}
